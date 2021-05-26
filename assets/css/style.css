@@ -1707,3 +1707,22 @@ section {
   font-size: 13px;
   padding-top: 5px;
 }
+
+/*--------------------------------------------------------------
+# button & span custom
+--------------------------------------------------------------*/
+.btn-outline-custom {
+    color: #7cc576;
+    border-color: #7cc576;
+}
+.btn-outline-custom:hover {
+  background-color: #7cc576;
+  color: white;
+}
+.rounded-pill-custom {
+	background-color: #7cc576;
+}
+.btn-custom {
+	color: #7cc576;
+}
+
