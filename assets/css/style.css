@@ -1723,6 +1723,12 @@ section {
 	background-color: #7cc576;
 }
 .btn-custom {
+	color: white;
+	background-color: #7cc576;
+}
+.btn-custom:hover {
 	color: #7cc576;
+	background-color: white;
+	border-color: #7cc576;
 }
 
