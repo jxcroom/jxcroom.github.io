@@ -1997,8 +1997,11 @@ section {
 # Share
 --------------------------------------------------------------*/
 .share {
-  background: #2f3640;
-  padding: 5px 0;
-  text-align: center;
+  background: #333333;
+  padding: 10px 0;
+  text-align: right;
   color: #f5f6fa;
+}
+.share-container {
+	height: 23px;
 }
