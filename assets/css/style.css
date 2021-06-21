@@ -326,12 +326,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------------------------------------------------
-# Hero Section
+# Hero Section -> background: url("../img/hero-bg.png");
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.png");
+  background:  whitesmoke;
   position: relative;
 }
 
@@ -1390,7 +1390,7 @@ section {
 .contact .info {
   width: 100%;
   height: 100%;
-  background: #fff;
+  background: ;
   padding: 20px;
   border-radius: 5px;
 }
@@ -1414,7 +1414,7 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #151515;
+  color: #fff;
 }
 
 .contact .info p {
@@ -1539,8 +1539,8 @@ section {
 }
 
 .breadcrumbs h2 {
-  font-size: 26px;
-  font-weight: 300;
+  font-size: 32px;
+  font-weight: bold;
 }
 
 .breadcrumbs ol {
@@ -1617,11 +1617,21 @@ section {
   margin-bottom: 0;
 }
 
+#footer .footer-top h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  padding-bottom: 0;
+  color: #fff;
+}
+
 #footer .footer-top p {
-  font-size: 15;
-  font-style: italic;
-  margin: 30px 0 0 0;
-  padding: 0;
+
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #484848;
 }
 
 #footer .footer-top .footer-newsletter {
@@ -2004,4 +2014,9 @@ section {
 }
 .share-container {
 	height: 23px;
+}
+
+.breadcrumbs-container {
+	padding: 1px 0;
+	height: 1px;
 }
